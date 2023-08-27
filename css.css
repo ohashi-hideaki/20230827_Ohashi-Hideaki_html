@@ -1,0 +1,46 @@
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    height: 70px;
+    align-items: center;
+    color: navy;
+    padding: 0 30px;
+}
+
+.header_ttl{
+    font-weight: bold;
+}
+
+.header_nav_list{
+    display: flex;
+}
+
+.header_nav_item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.main_contents{
+    margin-top: -150px;
+    z-index: 0;
+}
+
+.main_text{
+    font-size: 60px;
+}
+
+.main_back{
+    background: navy;
+    width: 75%;
+    height: 200px;
+}
+
+.main_img{
+    margin: 50px 0 0 auto;
+    z-index: 10;  
+    display: block;  
+}
